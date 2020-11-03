@@ -2,6 +2,12 @@
 -- Link to schema: https://app.quickdatabasediagrams.com/#/d/sEOfED
 -- NOTE! If you have used non-SQL datatypes in your design, you will have to change these here.
 
+DROP TABLE IF EXISTS titles CASCADE;
+DROP TABLE IF EXISTS departments CASCADE;
+DROP TABLE IF EXISTS employees CASCADE;
+DROP TABLE IF EXISTS dept_emp CASCADE;
+DROP TABLE IF EXISTS dept_manager CASCADE;
+DROP TABLE IF EXISTS salaries CASCADE;
 
 CREATE TABLE "titles" (
     "title_id" VARCHAR(5)   NOT NULL,
