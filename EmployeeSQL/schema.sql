@@ -56,7 +56,7 @@ CREATE TABLE "dept_manager" (
 
 CREATE TABLE "salaries" (
     "emp_no" INTEGER   NOT NULL,
-    "salary" DOUBLE   NOT NULL,
+    "salary" DOUBLE PRECISION NOT NULL,
     CONSTRAINT "pk_salaries" PRIMARY KEY (
         "emp_no"
      )
